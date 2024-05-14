@@ -12,6 +12,7 @@ function Sidebar() {
 
   function handleLogout() {
     localStorage.removeItem('email');
+    localStorage.removeItem('id');
     window.location.href = "/";
   }
 
